@@ -1,0 +1,25 @@
+baseURL: https://thijsmeeuwisse.nl
+languageCode: en-gb
+title: Thijs Meeuwisse
+
+frontmatter:
+  date:
+  - :filename
+  - :default
+
+params:
+  # description:
+
+menus:
+  main:
+    - identifier: home
+      name: Home
+      pageRef: /
+      weight: 10
+    - identifier: about
+      name: About me
+      pageRef: /about
+      weight: 20
+
+permalinks:
+  # posts: '/:year/:month/:slug/'
