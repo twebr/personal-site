@@ -2,17 +2,18 @@ body {
   color: #222;
   font-family: serif;
   line-height: 1.5;
-  margin: 1rem;
-  max-width: 768px;
+  margin: 1rem auto;
+  max-width: 40rem;
+  font-size: 18px;
 }
 
 header {
-  border-bottom: 1px solid #222;
+  border-bottom: 2px solid #222;
   margin-bottom: 1rem;
 }
 
 footer {
-  border-top: 1px solid #222;
+  border-top: 2px solid #222;
   margin-top: 1rem;
 }
 

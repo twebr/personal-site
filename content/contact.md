@@ -1,10 +1,10 @@
 ---
-title: 'About'
+title: 'Contact'
 draft: false
 
 menus:
   main:
-    weight: 30
+    weight: 100
 ---
 
 Hello here I am!

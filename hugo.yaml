@@ -8,18 +8,27 @@ frontmatter:
   - :default
 
 params:
-  # description:
+  footer:
+    text: "This website is cookie-free, so no annoying pop-ups here. Hooray!"
+  # contact:
+  #   email: info@example.org
+  #   phone: +1 202-555-1212
 
+# Note: the menu items for the MAIN MENU are defined in the frontmatters of the respective pages
 menus:
-  main:
-    - identifier: home
-      name: Home
-      pageRef: /
+  social:
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/thijs-meeuwisse/
       weight: 10
-    - identifier: about
-      name: About me
-      pageRef: /about
+    - name: Mastodon
+      url: https://mastodon.nl/@twebr
       weight: 20
+    - name: GitHub
+      url: https://github.com/twebr
+      weight: 30
 
-permalinks:
+# permalinks:
   # posts: '/:year/:month/:slug/'
+
+minify:
+  minifyOutput: true
